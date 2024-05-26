@@ -1,6 +1,8 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-size: .75vw;
 }
 body{
     background-color: rgb(206, 210, 214);
@@ -19,7 +21,7 @@ body{
 }
 .light{
     color: rgb(200,200,200);
-    font-size: 14px;
+    font-size: .7vw;
 }
 .flex{
     display: flex;
@@ -27,71 +29,72 @@ body{
     align-items: center;
 }
 .small{
-    font-size: 14px;
+    font-size: .7vw;
 }
 .big{
-    font-size: 32px;
+    font-size: 1.6vw;
 }
 .nav1{
-    padding: 0 14px;
-    height: 60px;
+    padding: 0 .723vw;
+    height: 3.15vw;
     background-color: rgb(25,28,27);
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    justify-content: space-evenly;
     width: 100%;
 }
 .nav-item{
     color: white;
     margin: 0 0.5%;
-    height: 46px;
-    padding: 0 2px;
-    border: 2px solid black;
+    height: 2.3vw;
+    /* padding: 0.1vw .4%; */
+    border: .1vw solid black;
 }
 .item1{
-    height: 46px;
-    width: 90px;
+    height: 2.3vw;
+    width: 4.5vw;
 }
 .nav-item img{
-    height: 46px;
+    height: 2.3vw;
 }
 
 .hover-item:hover{
-    border: 2px solid white;
+    border: .1vw solid white;
 }
 .deliver-to{
-    padding: 0 0 0 14px;
+    padding: 0 0 0 .7vw;
 }
 nav div i{
-    padding-right: 3px;
+    padding-right: .15vw;
 }
 .select{
-    height: 42px;
-    width: 50px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    height: 2.1vw;
+    width: 2.5vw;
+    border-top-left-radius: .25vw;
+    border-bottom-left-radius: .25vw;
     margin:0;
     background-color: rgb(238, 238, 238);
-    padding: 0 0 0 5px;
+    padding: 0 0 0 .25vw;
 }
 .search-inp{
-    height: 42px;
-    margin:-6px;
-    width: 1150px;
-    padding-left: 8px;
-    font-size: 15px;
+    height: 2.1vw;
+    margin:-.3vw;
+    width: 53vw;
+    padding-left: .4vw;
+    font-size: .75vw;
 }
 .search-icon{
-    height: 41px;
-    width: 44px;
+    height: 2vw;
+    width: 2.2vw;
     background-color: rgb(253, 196, 7);
     border:none;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    font-size: 20px;
+    border-top-right-radius: .25vw;
+    border-bottom-right-radius: .25vw;
+    font-size: 1vw;
 }
 .language{
-    height: 42px;
+    height: 2.1vw;
     color: white;
     background-color: black;
     border: none;
@@ -100,17 +103,17 @@ nav div i{
     display: flex;
     align-items: center;
     color: rgb(220,230,245);
-    height: 40px;
+    height: 2vw;
     background-color: #232f3e;
-    padding: 0 15px;
+    padding: 0 .75vw;
 }
 .nav2-item{
-    margin: 0 1px;
-    padding: 5px 8px;
-    border: 2px solid #2a2f3d;
+    margin: 0 .05vw;
+    padding: .25vw .4vw;
+    border: .1vw solid #2a2f3d;
 }
 .nav2-item:hover{
-    border: 2px solid white;
+    border: .1vw solid white;
 
 }
 .row{
@@ -118,26 +121,26 @@ nav div i{
     justify-content: center;
 }
 .card{
-    height: 400px;
-    width: 330px;
+    height: 20vw;
+    width: 17vw;
     background-color: white;
-    margin: 12px;
-    padding: 12px 20px;
+    margin: .6vw;
+    padding: .6vw 1vw;
 }
 .single-row{
-    height: 300px;
-    width: 1392px;
+    height: 15vw;
+    width: 71.7vw;
     background-color: white;
-    margin: 12px;
+    margin: .6vw;
 
 }
 
 table tr td{
-    width: 150px;
+    width: 7.5;
 }
 table tr td .img{
-    height: 100px;
-    width: 130px;
+    height: 5vw;
+    width: 6.5vw;
     cursor: pointer;
 }
 table tr td img:hover{
@@ -149,31 +152,31 @@ div a{
     font-weight: 700;
 }
 .single-pic{
-    width: 290px;
-    height: 280px;
+    width: 15vw;
+    height: 14vw;
 }
 .smartphone{
-    height: 160px;
-    width: 290px;
+    height: 6vw;
+    width: 14.5vw;
 }
 .three-in-one{
-    width: 94px;
+    width: 4.7vw;
 }
 .smartwatch{
-    height: 270px;
-    width: 290px;
+    height: 13.5vw;
+    width: 14.5vw;
 }
 .row3 >div,.row4>div,.row6>div{
-    padding: 12px 20px;
+    padding: .6vw 1vw;
 }
 .row3>div>img{
-    margin: 0 10px;
+    margin: 0 .32vw;
 }
 .row6>div>img{
-    margin: 0 12px;
+    margin: 0 .5vw;
 }
 .row4>div>img{
-    margin: 0 8px;
+    margin: 0 .28vw;
 }
 /* .footer>div>.seg>ul>li{
     list-style-type: none;
@@ -185,7 +188,7 @@ div a{
 .footer1{
     color: rgb(220,230,245);
     background-color: #232f3e;
-    height: 450px;
+    height: 22.5vw;
 }
 .footer1-item,.footer2-item{
     display: flex;
@@ -194,7 +197,7 @@ div a{
 }
 #to-top{
     width: 100%;
-    height: 50px;
+    height: 2.5vw;
     color: rgb(220,230,245);
     background-color: #333f4e;
     cursor: pointer;
@@ -203,31 +206,112 @@ div a{
     background-color:  #355f6e;
 }
 .seg{
-    margin: 50px 80px;
+    margin: 2.5vw 4vw;
 }
 .seg>b{
     font-weight: 700;
     color: white;
 }
-/* .padd{
-    padding: 40px;
-} */
-
-
-
 .footer2{
     color: rgb(220,230,245);
     background-color: rgb(19, 26, 34);
-    height: 460px;
+    height: 23vw;
     display: flex;
     justify-content: center;
 }
 .seg2{
-    width:120px;
-    padding: 10px;
-    margin: 30px 10px;
-    font-size: 13px;
+    width:6vw;
+    padding: .5vw;
+    margin: 1.5vw .5vw;
+    font-size: .65vw;
 }
 .seg2>div{
     color: rgb(160,170,195);
 }
+h2{
+    font-size: 1.3vw;
+}
+#dessert-haze{
+    width: 12.45vw;
+    height: 10.37vw;
+}
+#makeup-remover{
+    width: 10.06vw;
+    height: 10.37vw;
+}
+#cotton-swab{
+    width: 5.34vw;
+    height: vw;
+}
+#cotton-rounds{
+    width: 2.75vw;
+    height: vw;
+}
+#eos{
+    width: 4.66vw;
+    height: vw;
+}
+#hydro-silk{
+    width: 10.21vw;
+    height: vw;
+}
+#dove{
+    width: 5.18vw;
+    height: vw;
+}
+#elta{
+    width: 6.74vw;
+    height: vw;
+}
+#washing-machine{
+    width: 6.07vw;
+    height: vw;
+}
+#skilsaw{
+    width: 13.28vw;
+    height: vw;
+}
+#jet-oil{
+    width: 9.23vw;
+    height: vw;
+}
+#lion-statue{
+    width: 6.43vw;
+    height: vw;
+}
+#bed{
+    width: 10.37vw;
+    height: vw;
+}
+#black-figure{
+    width: 17.22vw;
+    height: vw;
+}
+#baby-brezza{
+    width: 10.27vw;
+    height: vw;
+}
+#lansinoh{
+    width: 11.31vw;
+    height: vw;
+}
+#minibrands{
+    width: 10.58vw;
+    height: vw;
+}
+#teddy{
+    width: 5.55vw;
+    height: vw;
+}
+#cetaphil{
+    width: 9.49vw;
+    height: vw;
+}
+#TV-toy{
+    width: 16.03vw;
+    height: vw;  
+}
+
+
+
+
